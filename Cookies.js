@@ -86,7 +86,6 @@ class Cookies {
 
 	delete () {
 		this.expires = this.generateDate(-1);
-		this.value = '';
 		this.save();
 	}
 
